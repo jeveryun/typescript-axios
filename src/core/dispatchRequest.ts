@@ -31,7 +31,7 @@ function transformHeaders(config: AxiosRequestConfig): any {
 }
 
 function transformReponseData(res: AxiosResponse): AxiosResponse {
-  res.data = transformResponse(res.data)
+  // res.data = transformResponse(res.data)
   return res
 }
 export default axios
